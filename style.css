@@ -1,10 +1,21 @@
-h1,h2,h3,h4,p,li{
+*{
+    /* border-top: 10px solid burlywood; */
+}
+
+body{
+    color:#444;
     font-family: sans-serif;
+    /* border-top: 10px solid darkorchid; */
+}
+
+nav{
+    font-size:18px;
 }
 
 h1,h2,h3{
     color:#1098ad;
 }
+
 h1{
     /* color:red; */
     font-size: 26px;
@@ -100,3 +111,5 @@ a:active{
 footer p{
     color:aqua !important;
 } */
+
+
