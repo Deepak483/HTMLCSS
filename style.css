@@ -61,6 +61,41 @@ li:last-child{
 /* li:nth-child(){
     color:blue;
 } */
-article p:last-child{
+
+/*Misconception regarding the inheritance last child*/
+/* article p:last-child{
     color:red
+} */
+a:link{
+    color:#1098ad;
+    text-decoration: none;
+}
+a:visited{
+    /* color:#777; */
+    color:#1098ad;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline orangered;
+    font-weight: bold;
+
+}
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+/*LVHA*/
+#copyright{
+    color:red;
+    font-size:18px;
+}
+.copyright{
+    color:blue;
+    font-size:20px;
+}
+.text{
+    color: yellow;
+}
+footer p{
+    color:aqua;
 }
