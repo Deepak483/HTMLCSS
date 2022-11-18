@@ -202,5 +202,21 @@ button{
     bottom: 50px;
     right:50px;
 }
+/* FLOAT */
+.author{
+    margin-top:10px;
+    margin-left:20px;
+    float:left;
+}
+.author-img{
+    float:left;
+}
+h1{
+    float: left;
+}
+nav{
+    float:right;
+}
+
 
 
