@@ -10,7 +10,35 @@ body{
     color:#444;
     font-family: sans-serif;
     border-top: 10px solid #1098ad;
+    position: relative;
 }
+/* PSEUDO ELEMENT */
+h1::first-letter{
+    font-style:normal;
+    margin-right:5px;
+}
+h3+p::first-line{
+    /* color:red; */
+}
+h2{
+    /* background-color:brown; */
+    position:relative;
+}
+/* h2::before */
+h2::after{
+    content:"TOP";
+    font-size:16px;
+    color:#444;
+    background-color: #ffe70e;
+    padding:5px 10px;
+    display:inline-block;
+    position: absolute;
+    top:-10px;
+    right:-25px;
+}
+
+
+/* HEADER */
 .main-header{
     background-color: #f7f7f7;
     padding:20px 40px;
@@ -20,6 +48,7 @@ body{
 .post-header{
     margin-bottom: 40px;
 }
+
 aside{
     background-color:#f7f7f7;
     border-top:5px solid #1098ad;
@@ -127,6 +156,7 @@ a:active{
     /* margin-left: auto;
     margin-right: auto; */
     margin: 0 auto;
+    
 }
 
 /*LVHA*/
@@ -145,5 +175,17 @@ a:active{
 footer p{
     color:aqua !important;
 } */
+/* BUTTON */
+button{
+    padding:20px;
+    font-size: 22px;
+    position: absolute;
+    /* top:50px;
+    left:50px; */
+    /* top:0;
+    left:0; */
+    bottom: 50px;
+    right:50px;
+}
 
 
