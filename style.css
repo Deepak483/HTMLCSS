@@ -4,6 +4,7 @@
 }
 nav{
     font-size:18px;
+    text-align: center;
 }
 
 body{
@@ -23,6 +24,20 @@ h3+p::first-line{
 h2{
     /* background-color:brown; */
     position:relative;
+}
+nav a:link{
+    /* background-color:orangered;
+    margin:20px;
+    padding: 20px;
+    display: block; */
+    margin-right:30px;
+    margin-top: 10px;/*this will not work untill we define the display:block*/
+    display:inline-block;
+    
+
+}
+nav a:link:last-child{
+    margin-right:0;
 }
 /* h2::before */
 h2::after{
