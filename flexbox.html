@@ -9,6 +9,7 @@
      
       .el--1 {
         background-color: blueviolet;
+        /* flex-grow: 1; */
       }
       .el--2 {
         background-color: orangered;
@@ -44,20 +45,32 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap:30px;
+        /* gap:30px; */
       }
       .el--1 {
         align-self: flex-start;
       }
       .el--5 {
         align-self: stretch;
-        order: 1;
+        /* order: 1; */
       }
       .el--6 {
-        order: -1;
+        /* order: -1; */
       }
       .el {
         /* margin: 30px; */
+        /* DEFAULTS
+        flex-grow:0
+        flex-shrik:0 
+        flex-basis: auto;
+        */
+        /* flex-basis:200px; */
+        /* flex-shrink: 0; */
+        /* flex-grow:1; */
+        /* shorthand property is more used */
+        flex:0 1 200px;
+        /* align-items:; */
+
       }
 
     </style>
@@ -69,7 +82,7 @@
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
-      <div class="el el--6">languages</div>
+      <!-- <div class="el el--6">languages</div> -->
       <!-- <div class="el el--7">to</div>
       <div class="el el--8">learn</div> -->
     </div>
