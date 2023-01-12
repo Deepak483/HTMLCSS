@@ -138,8 +138,8 @@
     flex:1;
     margin-top: 20px;
     /* float:left; */
-    margin-right:40px;
-    margin-left: 20px;
+    /* margin-right:40px; */
+    /* margin-left: 20px; */
   }
   .product-price{
     display:flex;
